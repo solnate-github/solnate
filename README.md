@@ -22,3 +22,7 @@ Donors can contribute SOL directly to your specified wallet address with ease.
 ```
 
 Customize the appearance of the donation button using CSS to match your website's design.
+
+**Example**
+
+[Link to the donation page](https://solnate.com/dare?w=3UrCwB5uJpXxX7W6o50YrJPnfpeQ2g.boKe8dooEf70n36eP$)
