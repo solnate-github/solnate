@@ -9,7 +9,14 @@ Donors can contribute SOL directly to your specified wallet address with ease.
 <script>
     let amount = "0.1"; // SOL amount
     let address = "3uYbnorJUpJK3ePXrxn86dfXC7poeoeWw6QEPf2oB5g7"; // Your SOL wallet address
-    const solnate = new SolnateDare(amount, address);
+    let buttonStyle = "Light"; // Refers to the color scheme of the website (Light = Dark button)
+    /* --- Additional --- */
+    let buttonPrefix = "Donate"; // Default
+    let buttonSuffix = ""; // Defaults to ''
+    let buttonHeight = "30px"; // Default
+    let buttonWidth = "200px"; // Default
+    /* --- Additional --- */
+    const solnate = new SolnateDare(amount, address, buttonStyle, buttonPrefix, buttonSuffix, buttonHeight, buttonWidth);
     solnate.render("solnate-button");
 </script>
 ```
